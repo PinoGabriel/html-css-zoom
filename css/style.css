@@ -22,7 +22,7 @@ header {
     font-size: small;
 }
 
-.sfondo-item > a {
+a {
     text-decoration: none;
     color: white;
 }
@@ -30,6 +30,11 @@ header {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+
+main {
+    height: (100vh -40px -71px);
+    width: 100%
+}
 
 .container {
     width: 1700px;
@@ -64,6 +69,46 @@ header {
 /* INIZIO FOOTER */
 footer {
     background-color: #222222;
-    padding: 2px;
-    height: 100px;
+    height: 71px;
+}
+
+.fa-item {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 38px;
+}
+ 
+.fa-green-item {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 38px;
+    color: green;
+}
+
+.text-item {
+    font-size: 11px;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.angle-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-size: 8px;
+}
+
+.text-footer {
+    align-items: center;
+    display: flex;
+    padding: 13px;
+    font-size: 12px;
+}
+
+.text-footer > a {
+    color: red;
 }
