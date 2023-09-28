@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* INIZIO HEADER */
@@ -42,4 +43,14 @@ header {
     width: calc(100% / 7);
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.micro-item {
+    background-color: lightgrey;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
 }
