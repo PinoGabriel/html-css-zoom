@@ -30,12 +30,6 @@ a {
 /* FINE HEADER */
 
 /* INIZIO MAIN */
-
-main {
-    height: (100vh -40px -71px);
-    width: 100%
-}
-
 .container {
     width: 1700px;
     margin: 50px auto;
