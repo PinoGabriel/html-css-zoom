@@ -19,6 +19,7 @@ header {
     margin: 3px;
     padding: 4px;
     border-radius: 6px;
+    font-size: small;
 }
 
 .sfondo-item > a {
@@ -44,6 +45,10 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.card > img {
+    width: 100%;
 }
 
 .micro-item {
