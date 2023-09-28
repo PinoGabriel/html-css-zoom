@@ -33,9 +33,8 @@ header {
 
 .container {
     width: 1700px;
-    margin: 0 auto;
+    margin: 50px auto;
     min-height: 100px;
-    margin-top: 50px;
     flex-wrap: wrap;
 }
 
@@ -52,10 +51,19 @@ header {
 }
 
 .micro-item {
-    background-color: lightgrey;
+    background-color: rgba(34, 34, 34, 0.412);
     padding: 5px;
     color: white;
     position: absolute;
-    left: 0px;
+    left: 5px;
     bottom: 5px;
+}
+/* FINE MAIN */
+
+
+/* INIZIO FOOTER */
+footer {
+    background-color: #222222;
+    padding: 2px;
+    height: 100px;
 }
